@@ -15,7 +15,7 @@ const tarjetas = [
             { cuotas: 10, recargo: 24, desc: "10 Cuotas" },
             { cuotas: 11, recargo: 24, desc: "11 Cuotas" },
             { cuotas: 12, recargo: 24, desc: "12 Cuotas" },
-            { cuotas: 18, recargo: 27, desc: "18 cuotas (solo jueves)}
+            { cuotas: 18, recargo: 27, desc: "18 cuotas (solo jueves)"}
         ]
     },
     {

@@ -4,17 +4,18 @@ const tarjetas = [
         nombre: "Patagonia 365",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 2, recargo: 7, desc: "2 Cuotas" },
-            { cuotas: 3, recargo: 7, desc: "3 Cuotas" },
-            { cuotas: 4, recargo: 14, desc: "4 Cuotas" },
-            { cuotas: 5, recargo: 14, desc: "5 Cuotas" },
-            { cuotas: 6, recargo: 14, desc: "6 Cuotas" },
-            { cuotas: 7, recargo: 25, desc: "7 Cuotas" },
-            { cuotas: 8, recargo: 25, desc: "8 Cuotas" },
-            { cuotas: 9, recargo: 25, desc: "9 Cuotas" },
-            { cuotas: 10, recargo: 25, desc: "10 Cuotas" },
-            { cuotas: 11, recargo: 25, desc: "11 Cuotas" },
-            { cuotas: 12, recargo: 25, desc: "12 Cuotas" }
+            { cuotas: 2, recargo: 8, desc: "2 Cuotas" },
+            { cuotas: 3, recargo: 8, desc: "3 Cuotas" },
+            { cuotas: 4, recargo: 13, desc: "4 Cuotas" },
+            { cuotas: 5, recargo: 13, desc: "5 Cuotas" },
+            { cuotas: 6, recargo: 13, desc: "6 Cuotas" },
+            { cuotas: 7, recargo: 24, desc: "7 Cuotas" },
+            { cuotas: 8, recargo: 24, desc: "8 Cuotas" },
+            { cuotas: 9, recargo: 24, desc: "9 Cuotas" },
+            { cuotas: 10, recargo: 24, desc: "10 Cuotas" },
+            { cuotas: 11, recargo: 24, desc: "11 Cuotas" },
+            { cuotas: 12, recargo: 24, desc: "12 Cuotas" },
+            { cuotas: 18, recargo: 27, desc: "18 cuotas (solo jueves)}
         ]
     },
     {
@@ -24,18 +25,16 @@ const tarjetas = [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
             { cuotas: 3, recargo: 0, desc: "Plan Z (3 cuotas)" },
             { cuotas: 5, recargo: 0, desc: "5 Cuotas" },
-            { cuotas: 8, recargo: 10, desc: "8 Cuotas" },
-            { cuotas: 10, recargo: 15, desc: "10 Cuotas" },
-            { cuotas: 12, recargo: 20, desc: "12 Cuotas" }
+            { cuotas: 8, recargo: 9, desc: "8 Cuotas" },
+            { cuotas: 10, recargo: 13, desc: "10 Cuotas" }
         ]
     },
     {
-        id: "hipotecario",
-        nombre: "Visa y Mastercard - Banco Hipotecario",
+        id: "bancarizadas",
+        nombre: "Visa y Mastercard - Bancarizadas - Promo Miercoles, Viernes y Sábados",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 3, recargo: 0, desc: "3 Cuotas" },
-            { cuotas: 6, recargo: 0, desc: "6 Cuotas (Solo Jueves)" }
+            { cuotas: 3, recargo: 0, desc: "3 Cuotas Sin Interés" }
         ]
     },
     {
@@ -43,12 +42,12 @@ const tarjetas = [
         nombre: "Visa y Mastercard - Banco Patagonia",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 3, recargo: 0, desc: "3 Cuotas Sin Interés" }
+            { cuotas: 3, recargo: 0, desc: "3 Cuotas Sin Interés (solo jueves)" }
         ]
     },
     {
         id: "mercadopago",
-        nombre: "Otras Tarjetas",
+        nombre: "Visa y Mastercard - Hasta 18 Cuotas Fijas",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
             { cuotas: 3, recargo: 5, desc: "3 Cuotas" },
@@ -56,30 +55,6 @@ const tarjetas = [
             { cuotas: 9, recargo: 14, desc: "9 Cuotas" },
             { cuotas: 12, recargo: 15, desc: "12 Cuotas" },
             { cuotas: 18, recargo: 22, desc: "18 Cuotas" }
-        ]
-    },
-    {
-        id: "promo1",
-        nombre: "PROMO: Bremen y Einhell",
-        planes: [
-            { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 3, recargo: 0, desc: "3 Cuotas" }
-        ]
-    },
-    {
-        id: "promo2",
-        nombre: "PROMO: Living, Platinum, Genoud",
-        planes: [
-            { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 3, recargo: 0, desc: "3 Cuotas" }
-        ]
-    },
-    {
-        id: "promo3",
-        nombre: "PROMO: Genoud - Naranja X / Bancarizadas",
-        planes: [
-            { cuotas: 1, recargo: 0, desc: "1 Pago" },
-            { cuotas: 12, recargo: 0, desc: "12 Cuotas" }
         ]
     }
 ];
